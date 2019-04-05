@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* =========================== Container ============================== */
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    -webkit-box-shadow: 0px 11px 12px -1px rgba(0,0,0,0.7); 
+    box-shadow: 0px 11px 12px -1px rgba(0,0,0,0.7);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 30em;
+}
+
+
+
+/* =========================== header ============================== */
+
+
+
+.header {
+    height: 7em;
+    margin-bottom: 5em;
+    padding-top: 20px
+    
+}
+
+.header img {
+    height: 7em;
+    float: left;
+    padding-left: 10px;
+    margin-right: 15%;
+}
+
+
+.header .quote {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 20px;
+
+}
+
+
+.header .btn {
+    float: right;
+    display: inline-block;
+}
+
+/* =========================== nav ============================== */
+
+.navbar {
+    text-align: center;
+    background-color: lightgray;
+    height: 70px;
+    padding-top: 35px;
+}
+
+.btn {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: gold;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.33);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: black;
+    background-color: lightskyblue;
+    transition: 0.3s
+}
