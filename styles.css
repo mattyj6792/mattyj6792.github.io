@@ -50,7 +50,7 @@ body {
 
 
 .header .btn {
-    float: right;
+    /* float: right; */
     display: inline-block;
 }
 
